@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+dist/*
+!dist/index.html
+npm-debug.log
+
+# IDE - VSCode
+.vscode/*
+package-lock.json
+.eslintrc.json
+.eslintignore

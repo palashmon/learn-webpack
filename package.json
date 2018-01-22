@@ -1,0 +1,29 @@
+{
+	"name": "learn-webpack",
+	"version": "1.0.0",
+	"description": "Learning about Webpack basics",
+	"private": true,
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack src/index.js dist/bundle.js",
+		"build:prod": "webpack src/index.js dist/bundle.js -p"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/palashmon/learn-webpack.git"
+	},
+	"keywords": [],
+	"author": "Palash Mondal",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/palashmon/learn-webpack/issues"
+	},
+	"homepage": "https://github.com/palashmon/learn-webpack#readme",
+	"devDependencies": {
+		"webpack": "3.10.0"
+	},
+	"dependencies": {
+		"lodash": "4.17.4"
+	}
+}
