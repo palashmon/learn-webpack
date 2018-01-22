@@ -5,7 +5,6 @@
 	"private": true,
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack --config webpack.config.js",
 		"build:prod": "webpack --config webpack.config.js -p"
 	},
@@ -21,6 +20,8 @@
 	},
 	"homepage": "https://github.com/palashmon/learn-webpack#readme",
 	"devDependencies": {
+		"css-loader": "0.28.9",
+		"style-loader": "0.19.1",
 		"webpack": "3.10.0"
 	},
 	"dependencies": {
