@@ -12,4 +12,7 @@ Learning about Webpack 3 basics using simplest case examples.
     * Creating a Bundle
     * Modules
     * Using a Configuration
+* [ ] Asset Management
+    * Setup
+    * Loading CSS
 * [ ] TODO
