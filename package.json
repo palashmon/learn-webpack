@@ -6,7 +6,9 @@
 	"main": "index.js",
 	"scripts": {
 		"build": "webpack --config webpack.config.js",
-		"build:prod": "webpack --config webpack.config.js -p"
+		"build:prod": "webpack --config webpack.config.js -p",
+		"dev": "webpack-dev-server --colors",
+		"start": "webpack && npm run dev"
 	},
 	"repository": {
 		"type": "git",
@@ -20,11 +22,14 @@
 	},
 	"homepage": "https://github.com/palashmon/learn-webpack#readme",
 	"devDependencies": {
-		"css-loader": "0.28.9",
-		"style-loader": "0.19.1",
-		"webpack": "3.10.0"
+		"browser-sync": "^2.23.5",
+		"browser-sync-webpack-plugin": "^1.2.0",
+		"css-loader": "^0.28.9",
+		"style-loader": "^0.19.1",
+		"webpack": "^3.10.0",
+		"webpack-dev-server": "^2.11.1"
 	},
 	"dependencies": {
-		"lodash": "4.17.4"
+		"lodash": "^4.17.4"
 	}
 }
