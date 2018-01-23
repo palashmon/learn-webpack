@@ -15,4 +15,5 @@ Learning about Webpack 3 basics using simplest case examples.
 * [ ] Asset Management
     * Setup
     * Loading CSS
+    * Loading Images
 * [ ] TODO
