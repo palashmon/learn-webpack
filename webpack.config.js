@@ -1,5 +1,7 @@
 const path = require('path');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
 	entry: {
@@ -8,10 +10,13 @@ module.exports = {
 	},
 	output: {
 		filename: '[name].bundle.js',
-		path: path.resolve(__dirname, 'dist'),
-		publicPath: '/dist/'
+		path: path.resolve(__dirname, 'dist')
 	},
 	plugins: [
+		new CleanWebpackPlugin(['dist']),
+		new HtmlWebpackPlugin({
+			title: 'Webpack - Output Management'
+		}),
 		new BrowserSyncPlugin({
 			server: 'dist',
 			host: 'localhost',
