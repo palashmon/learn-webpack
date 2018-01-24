@@ -22,5 +22,9 @@ Learning about Webpack 3 basics using simplest case examples.
     * Setting up HtmlWebpackPlugin
     * Cleaning up the `/dist` folder
     * The Manifest
-* [ ] Development
+* [x] Development
+    * Using source maps
+    * Choosing a Development Tool
+    * Using Watch Mode
+    * Using webpack-dev-server
 * [ ] TODO
