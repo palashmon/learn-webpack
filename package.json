@@ -6,9 +6,9 @@
 	"main": "index.js",
 	"scripts": {
 		"build": "webpack --config webpack.config.js",
-		"build:prod": "webpack --config webpack.config.js -p",
-		"dev": "webpack-dev-server --colors",
-		"start": "webpack --watch && npm run dev"
+        "build:prod": "webpack --config webpack.config.js -p",
+        "watch": "webpack --watch",
+        "start": "webpack-dev-server --open"
 	},
 	"repository": {
 		"type": "git",
