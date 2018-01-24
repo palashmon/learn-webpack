@@ -17,7 +17,10 @@ Learning about Webpack 3 basics using simplest case examples.
     * Loading CSS
     * Loading Images
     * Other Assets
-* [ ] Output Management
+* [x] Output Management
     * Preparation
     * Setting up HtmlWebpackPlugin
+    * Cleaning up the `/dist` folder
+    * The Manifest
+* [ ] Development
 * [ ] TODO
