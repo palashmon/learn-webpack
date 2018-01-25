@@ -30,4 +30,7 @@ Learning about Webpack 3 basics using simplest case examples.
 * [x] Hot Module Replacement
     * Enabling HMR
     * HMR with Stylesheets
+* [ ] Tree Shaking
+    * Add a Utility
+    * Minify the Output
 * [ ] TODO
