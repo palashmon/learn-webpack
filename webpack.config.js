@@ -9,16 +9,7 @@ module.exports = {
 	},
 	devtool: 'inline-source-map',
 	devServer: {
-		contentBase: path.join(__dirname, 'dist'),
-		hot: true
-	},
-	module: {
-		rules: [
-			{
-				test: /\.css$/,
-				use: ['style-loader', 'css-loader']
-			}
-		]
+		contentBase: path.join(__dirname, 'dist')
 	},
 	output: {
 		filename: '[name].bundle.js',
