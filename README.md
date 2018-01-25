@@ -27,6 +27,7 @@ Learning about Webpack 3 basics using simplest case examples.
     * Choosing a Development Tool
     * Using Watch Mode
     * Using webpack-dev-server
-* [ ] Hot Module Replacement
+* [x] Hot Module Replacement
     * Enabling HMR
+    * HMR with Stylesheets
 * [ ] TODO
