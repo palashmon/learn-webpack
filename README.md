@@ -38,4 +38,6 @@ Learning about Webpack 3 basics using simplest case examples.
     * NPM Scripts
     * Minification
     * Source Mapping
+* [ ] Code Splitting
+    * Entry Points
 * [ ] TODO
