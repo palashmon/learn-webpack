@@ -40,4 +40,7 @@ Learning about Webpack 3 basics using simplest case examples.
     * Source Mapping
 * [ ] Code Splitting
     * Entry Points
+    * Prevent Duplication
+    * Dynamic Imports
+    * Bundle Analysis
 * [ ] TODO
