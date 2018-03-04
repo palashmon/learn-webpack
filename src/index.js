@@ -1,12 +1,20 @@
-import _ from 'lodash';
+async function getComponent() {
+	// return import(/* webpackChunkName: "lodash" */ 'lodash')
+	// 	.then(_ => {
+	// 		const element = document.createElement('div');
 
-function component() {
+	// 		element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+
+	// 		return element;
+	// 	})
+	//     .catch(error => 'An error occurred while loading the component');
+
 	const element = document.createElement('div');
-
-	// Lodash, now imported by this script
+	const _ = await import(/* webpackChunkName: "lodash" */ 'lodash');
 	element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
 	return element;
 }
 
-document.body.appendChild(component());
+getComponent().then(component => {
+	document.body.appendChild(component);
+});
